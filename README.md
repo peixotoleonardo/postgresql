@@ -8,3 +8,7 @@ To run on locally I use `docker compose`, before start the container create
 a file `.env` with the environment variable:
 
 - POSTGRES_PASSWORD
+
+## Commands
+
+- [DROP DATABASE](./sql/drop-database.md)
