@@ -8,5 +8,16 @@ services:
     volumes:
       - postgresql:/var/lib/postgresql/data
 
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    ports:
+      - 54320:80
+    env_file:
+      - .env
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+
+
 volumes:
   postgresql:
+  pgadmin:
