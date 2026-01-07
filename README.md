@@ -13,8 +13,4 @@ a file `.env` with the environment variable:
 
 - [psql](./notes/psql.md)
 - [Data Types](./notes/sql/datatypes.md)
-- SQL Commands
-  - [DROP DATABASE](./notes/sql/drop-database.md)
-  - [CREATE DATABASE](./notes/sql/create-database.md)
-  - [CREATE ROLE](./notes/sql/create-role.md)
-  - [CREATE TABLE](./notes/sql/create-table.md)
+- [DDL](./notes/sql/ddl/REAMD.md)
